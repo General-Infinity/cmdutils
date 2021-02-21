@@ -1,3 +1,5 @@
+<img align="left" src="./cmd.png" width="32">
+
 # cmdutils
 stupid replica of GNU coreutils but batch/cmd
   
