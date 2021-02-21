@@ -9,6 +9,7 @@ doskey cp=copy $*
 doskey pwd=cd
 doskey clear=cls
 doskey touch=cmd /k "echo. > $*"
+doskey whoami=echo %username%
 doskey alias=if "$1"=="all" (doskey /macros) else (doskey $*)
 doskey unalias=doskey $1=
 rem # end
