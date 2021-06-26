@@ -12,5 +12,6 @@ doskey touch=cmd /k "echo. > $*"
 doskey whoami=echo %username%
 doskey alias=if "$1"=="all" (doskey /macros) else (doskey $*)
 doskey unalias=doskey $1=
+doskey cat=type $*
 rem # end
 @echo on
